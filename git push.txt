@@ -1,0 +1,43 @@
+prani@DESKTOP-2CGJ840 MINGW64 ~
+$ pwd
+/c/Users/prani
+
+prani@DESKTOP-2CGJ840 MINGW64 ~
+$ cd /c/Users/prani/dashboard2
+
+prani@DESKTOP-2CGJ840 MINGW64 ~/dashboard2 (master)
+$ ls
+LICENSE  README.md  css/  images/  index.html  js/
+
+prani@DESKTOP-2CGJ840 MINGW64 ~/dashboard2 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/prani/dashboard2/.git/
+
+prani@DESKTOP-2CGJ840 MINGW64 ~/dashboard2 (master)
+$ git add .
+
+prani@DESKTOP-2CGJ840 MINGW64 ~/dashboard2 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+prani@DESKTOP-2CGJ840 MINGW64 ~/dashboard2 (master)
+$ git commit -m "First commit"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+prani@DESKTOP-2CGJ840 MINGW64 ~/dashboard2 (master)
+$ git remote add origin https://github.com/pranitzod/Practice2.git
+error: remote origin already exists.
+
+prani@DESKTOP-2CGJ840 MINGW64 ~/dashboard2 (master)
+$ git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+prani@DESKTOP-2CGJ840 MINGW64 ~/dashboard2 (master)
+$
